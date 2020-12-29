@@ -11,4 +11,10 @@ body,
   width: 100vw;
   height: 100vh;
 }
-/*# sourceMappingURL=index.css.map */
+
+
+#root {
+  background: url("../assets/BG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
