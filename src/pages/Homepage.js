@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./assets/BG.svg";
 
-export default function Homepage() {
+export default function Homepage(props) {
+  const [query, setQuery] = useState("");
   return (
     <>
       <h1 className="title">
@@ -11,15 +12,25 @@ export default function Homepage() {
         <h1 className="prompt">
           Find <b>Local</b> Organizations
           <br />
-          Supporting ......
+          Sourcing Food To <b>Help</b>
         </h1>
         <div className="search-bar">
           <input
             type="text"
             className="input-field"
-            placeholder="Postal Code"
+            placeholder="Location"
+            onChange={(event) => {
+              setQuery(event.target.value);
+            }}
           ></input>
-          <button className="search-button">
+          <button
+            className="search-button"
+            onClick={() => {
+              if (query) {
+                props.history.push(`/q/${query}`);
+              }
+            }}
+          >
             <span
               class="iconify"
               data-icon="bi:search"
