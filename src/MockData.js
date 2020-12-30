@@ -1,0 +1,80 @@
+export const data = [
+  {
+    name: "ABC Food Bank",
+    street: "42 Hello Blvd, A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 123 - 4567",
+  },
+  {
+    name: "Royal Food Bank",
+    street: "33 Huckleberry Dr, B3A 3A8, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 531 - 4567",
+  },
+  {
+    name: "FBC Food Bank",
+    street: "Black Clover, C1A 4B1, Canada",
+    city: "Mississauga, ON",
+    phone: "(416) - 843 - 8473",
+  },
+  {
+    name: "CF Food Bank",
+    street: "Rose Merry Dr, A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 847 - 8383",
+  },
+  {
+    name: "Winston Church",
+    street: "Rosemerry Dr, A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 536 - 1937",
+  },
+  {
+    name: "Toronto Church",
+    street: "Bulletseed cres , A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 737 - 7373",
+  },
+  {
+    name: "BFB Food Bank",
+    street: "Cavern Dr, A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 837 - 8371",
+  },
+  {
+    name: "ABC Food Bank",
+    street: "42 Hello Blvd, A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 123 - 4567",
+  },
+  {
+    name: "Royal Food Bank",
+    street: "33 Huckleberry Dr, B3A 3A8, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 531 - 4567",
+  },
+  {
+    name: "FBC Food Bank",
+    street: "Black Clover, C1A 4B1, Canada",
+    city: "Mississauga, ON",
+    phone: "(416) - 843 - 8473",
+  },
+  {
+    name: "CF Food Bank",
+    street: "Rose Merry Dr, A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 847 - 8383",
+  },
+  {
+    name: "Winston Church",
+    street: "Rosemerry Dr, A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 536 - 1937",
+  },
+  {
+    name: "Toronto Church",
+    street: "Bulletseed cres , A1A 1A1, Canada",
+    city: "Toronto, ON",
+    phone: "(416) - 737 - 7373",
+  },
+];

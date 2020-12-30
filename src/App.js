@@ -1,40 +1,20 @@
-import React from "react";
-
-import "./assets/BG.svg";
-
+import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import ResultPage from "./pages/ResultPage";
 import "./styles/App.css";
 
-function App() {
-  return (
-    <div className="app">
-      <h1 className="title">
-        <b>FoodBank</b> Search
-      </h1>
-      <div className="content">
-        <h1 className="prompt">
-          Find <b>Local</b> Organizations
-          <br />
-          Supporting ......
-        </h1>
-        <form className="search-bar">
-          <input
-            type="text"
-            className="input-field"
-            placeholder="Postal Code"
-          ></input>
-          <button className="search-button">
-            <span
-              class="iconify"
-              data-icon="bi:search"
-              data-inline="false"
-              data-width="2em"
-              data-height="2em"
-            ></span>
-          </button>
-        </form>
+export default class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <Router>
+          <Switch>
+            <Route path="/" exact component={Homepage}></Route>
+            <Route path="/q/:add" component={ResultPage}></Route>
+          </Switch>
+        </Router>
       </div>
-    </div>
-  );
+    );
+  }
 }
-
-export default App;
